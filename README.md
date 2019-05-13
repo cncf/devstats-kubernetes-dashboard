@@ -1,2 +1,6 @@
 # devstats-kubernetes-dashboard
-kubernetes dashboard for DevStats kubernetes deployment
+
+Kubernetes dashboard for DevStats kubernetes deployment
+
+
+# Usage
