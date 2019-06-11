@@ -1,8 +1,4 @@
 #!/bin/bash
-if ( [ -z "$AWS_PROFILE" ] || [ -z "$KUBECONFIG" ] )
-then
-  echo "$0: you should specify AWS_PROFILE=... and KUBECONFIG=..."
-fi
 # objects created by kubernetes-dashboard.yaml
 kubectl delete secret kubernetes-dashboard-certs -n kube-system
 kubectl delete secret kubernetes-dashboard-csrf -n kube-system
